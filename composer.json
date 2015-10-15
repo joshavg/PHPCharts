@@ -2,11 +2,11 @@
     "name": "laniger/php-charts",
     "require": {
         "intervention/image": "^2.3",
-        "php": "^5.4",
-        "pdepend/pdepend": "^2.2"
+        "php": "^5.4"
     },
     "require-dev": {
-        "squizlabs/php_codesniffer": "2.*"
+        "squizlabs/php_codesniffer": "2.*",
+        "pdepend/pdepend": "^2.2"
     },
     "autoload" : {
         "psr-0" : {
