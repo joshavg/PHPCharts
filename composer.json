@@ -2,7 +2,7 @@
     "name": "laniger/php-charts",
     "require": {
         "intervention/image": "^2.3",
-        "php": "^5.5"
+        "php": ">=5.5"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
