@@ -9,7 +9,8 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
         "pdepend/pdepend": "^2.2",
-        "phpunit/phpunit": "^4"
+        "phpunit/phpunit": "^4",
+        "escapestudios/symfony2-coding-standard": "~2.0"
     },
     "autoload" : {
         "psr-0" : {
@@ -22,5 +23,12 @@
             "name": "Josha von Gizycki",
             "email": "mail@joshavg.de"
         }
-    ]
+    ],
+    "scripts": {
+        "test": [
+            "cp -r vendor/escapestudios/symfony2-coding-standard/Symfony2 vendor/squizlabs/php_codesniffer/CodeSniffer/Standards",
+            "./vendor/bin/phpcs src --standard=Symfony2",
+            "./vendor/bin/phpunit"
+        ]
+    }
 }

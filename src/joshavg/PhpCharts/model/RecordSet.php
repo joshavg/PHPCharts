@@ -37,12 +37,13 @@ class RecordSet
     /**
      * adds a value to this series
      *
-     * @param numeric $value
+     * @param  numeric $value
      * @return RecordSet
      */
     public function add($value)
     {
         $this->values[] = $value;
+
         return $this;
     }
 
