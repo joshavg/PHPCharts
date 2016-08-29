@@ -1,5 +1,4 @@
 <?php
-
 namespace joshavg\PhpCharts\model;
 
 class RecordSetTest extends \PHPUnit_Framework_TestCase
@@ -14,7 +13,6 @@ class RecordSetTest extends \PHPUnit_Framework_TestCase
     {
         return new RecordSet('series');
     }
-
 
     /**
      * @depends provide
@@ -47,9 +45,8 @@ class RecordSetTest extends \PHPUnit_Framework_TestCase
     {
         $this->assertInstanceOf(\Iterator::class, $set->getValues());
 
-        foreach($set->getValues() as $value) {
+        foreach ($set->getValues() as $value) {
             $this->assertEquals(10, $value);
         }
     }
-
 }

@@ -18,13 +18,16 @@ class RecordSet
 
     /**
      * array of values
+     *
      * @var array
      */
     private $values;
 
     /**
      * ctor
-     * @param string $name series identificator
+     *
+     * @param string $name
+     *            series identificator
      */
     public function __construct($name)
     {
@@ -33,6 +36,7 @@ class RecordSet
 
     /**
      * adds a value to this series
+     *
      * @param numeric $value
      * @return RecordSet
      */
@@ -43,6 +47,7 @@ class RecordSet
     }
 
     /**
+     *
      * @return string the series identificator
      */
     public function getName()
@@ -51,6 +56,7 @@ class RecordSet
     }
 
     /**
+     *
      * @return \Iterator
      */
     public function getValues()
