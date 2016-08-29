@@ -1,6 +1,6 @@
 <?php
 
-namespace laniger\PhpCharts\model;
+namespace joshavg\PhpCharts\model;
 
 class RecordSetTest extends \PHPUnit_Framework_TestCase
 {

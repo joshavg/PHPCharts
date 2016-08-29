@@ -1,5 +1,7 @@
 {
-    "name": "laniger/php-charts",
+    "name": "joshavg/php-charts",
+    "license": "MIT",
+    "description": "pure php charting library",
     "require": {
         "intervention/image": "^2.3",
         "php": ">=5.5"
@@ -11,7 +13,7 @@
     },
     "autoload" : {
         "psr-0" : {
-            "" : "src/",
+            "joshavg\\" : "src/",
             "tests" : "tests/"
         }
     },

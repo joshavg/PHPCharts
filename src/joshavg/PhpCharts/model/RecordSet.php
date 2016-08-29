@@ -1,5 +1,5 @@
 <?php
-namespace laniger\PhpCharts\model;
+namespace joshavg\PhpCharts\model;
 
 /**
  * set of data appliable to a diagram
