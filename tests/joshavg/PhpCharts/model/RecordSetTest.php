@@ -7,7 +7,7 @@ class RecordSetTest extends \PHPUnit_Framework_TestCase
     /**
      * @test
      *
-     * @return \laniger\PhpCharts\model\RecordSet
+     * @return \joshavg\PhpCharts\model\RecordSet
      */
     public function provide()
     {
@@ -16,7 +16,7 @@ class RecordSetTest extends \PHPUnit_Framework_TestCase
 
     /**
      * @depends provide
-     * @covers laniger\PhpCharts\model\RecordSet::getSeries()
+     * @covers \joshavg\PhpCharts\model\RecordSet::getSeries()
      *
      * @param RecordSet $set
      */
