@@ -4,7 +4,7 @@
     "description": "pure php charting library",
     "require": {
         "intervention/image": "^2.3",
-        "php": ">=5.5"
+        "php": ">=5.6"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
