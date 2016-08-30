@@ -2,8 +2,9 @@
 namespace joshavg\PhpCharts\composition;
 
 use joshavg\PhpCharts\model\RecordSet;
+use PHPUnit\Framework\TestCase;
 
-class SeriesTest extends \PHPUnit_Framework_TestCase
+class SeriesTest extends TestCase
 {
 
     /**

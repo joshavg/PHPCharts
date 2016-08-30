@@ -9,7 +9,7 @@
     "require-dev": {
         "squizlabs/php_codesniffer": "2.*",
         "pdepend/pdepend": "^2.2",
-        "phpunit/phpunit": "^4",
+        "phpunit/phpunit": "^5.5",
         "escapestudios/symfony2-coding-standard": "~2.0",
         "sebastian/phpcpd": "*"
     },

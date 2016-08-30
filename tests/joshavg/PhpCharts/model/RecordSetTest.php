@@ -1,7 +1,9 @@
 <?php
 namespace joshavg\PhpCharts\model;
 
-class RecordSetTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+
+class RecordSetTest extends TestCase
 {
 
     /**
