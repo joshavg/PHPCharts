@@ -2,6 +2,19 @@
     "name": "joshavg/php-charts",
     "license": "MIT",
     "description": "pure php charting library",
+    "homepage": "https://github.com/joshavg/PHPCharts",
+    "authors": [
+        {
+            "name": "Josha von Gizycki",
+            "email": "mail@joshavg.de",
+            "homepage": "http://joshavg.de",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "source": "https://github.com/joshavg/PHPCharts",
+        "issues": "https://github.com/joshavg/PHPCharts/issues"
+    },
     "require": {
         "intervention/image": "^2.3",
         "php": ">=5.6"
@@ -19,12 +32,6 @@
             "tests" : "tests/"
         }
     },
-    "authors": [
-        {
-            "name": "Josha von Gizycki",
-            "email": "mail@joshavg.de"
-        }
-    ],
     "scripts": {
         "test": [
             "cp -r vendor/escapestudios/symfony2-coding-standard/Symfony2 vendor/squizlabs/php_codesniffer/CodeSniffer/Standards",
