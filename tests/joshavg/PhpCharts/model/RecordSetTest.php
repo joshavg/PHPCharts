@@ -18,7 +18,6 @@ class RecordSetTest extends TestCase
 
     /**
      * @depends provide
-     * @covers \joshavg\PhpCharts\model\RecordSet::getSeries()
      *
      * @param RecordSet $set
      */

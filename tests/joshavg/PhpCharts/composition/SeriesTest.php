@@ -30,4 +30,15 @@ class SeriesTest extends TestCase
         $this->assertEquals('series', $series->getRecordSet()
             ->getName());
     }
+
+    /**
+     * tests the fluent interface of settitle
+     */
+    public function testTitle()
+    {
+        $series = new Series();
+
+        $this->assertInstanceOf(Series::class, $series->setTitle('a'));
+        $this->assertEquals('a', $series->getTitle());
+    }
 }
