@@ -13,4 +13,12 @@ class PlotTest extends TestCase
         $plot = new Plot();
         $plot->setSeries('bla', new Series());
     }
+
+    public function testSetSeries()
+    {
+        $plot = new Plot();
+        $this->assertInstanceOf(Plot::class, $plot->setSeries(5, new Series()));
+        $this->assertEquals(1, count($plot->getSeries()));
+        $this->assertArrayHasKey(5, $plot->getSeries());
+    }
 }

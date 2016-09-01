@@ -28,7 +28,7 @@ class Series
     /**
      * sets the recordset that shall be displayed
      *
-     * @param RecordSet $rec
+     * @param  RecordSet $rec
      * @return Series
      */
     public function setRecordSet(RecordSet $rec)
@@ -51,7 +51,7 @@ class Series
     /**
      * sets the title
      *
-     * @param string $t
+     * @param  string $t
      * @return Series
      */
     public function setTitle($t)
