@@ -29,6 +29,7 @@
         "test": [
             "cp -r vendor/escapestudios/symfony2-coding-standard/Symfony2 vendor/squizlabs/php_codesniffer/CodeSniffer/Standards",
             "./vendor/bin/phpcs src --standard=Symfony2",
+            "./vendor/bin/phpcpd src",
             "./vendor/bin/phpunit"
         ],
         "test-fix": [
