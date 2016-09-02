@@ -1,5 +1,4 @@
-[![Build Status](https://travis-ci.org/laniger/PHPCharts.svg?branch=master)](https://travis-ci.org/laniger/PHPCharts)
+<img src="https://travis-ci.org/joshavg/PHPCharts.svg?branch=master" alt="Build status">
 
 # PHPCharts
 
-<img src="https://travis-ci.org/joshavg/PHPCharts.svg?branch=master">
